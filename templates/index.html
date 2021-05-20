@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}PrintAR{% endblock %}
+{% block content %}
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/static/images/impresora.jpg" alt="Los Angeles" width="1200" height="675">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: grey;">¡Visualiza tus modelos 3D en la realidad!</h5>
+            <p style="color: grey;">Con PrintAR puedes visualizar tus modelos antes de imprimir sin necesidad de gastar recursos</p>
+          </div>
+    </div>
+    <div class="carousel-item">
+        <img src="/static/images/yoda2.jpg" alt="Chicago" width="292" height="219">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/images/yoda3.jpg" alt="New York" width="1100" height="500">
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+{% endblock %}
