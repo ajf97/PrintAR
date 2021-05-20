@@ -1,9 +1,19 @@
 <h1 align="center">Welcome to PrintAR 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-v1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://opensource.org/licenses/MIT" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
+  <a href="https://github.com/ajf97/PrintAR/raw/master/docs/memoria.pdf">
+    <img alt="doc" src="https://img.shields.io/badge/doc-pdf-green.svg" />
+  </a>
+</p>
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ajf97/PrintAR)
+![GitHub last commit](https://img.shields.io/github/last-commit/ajf97/PrintAR)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ajf97/PrintAR)
+
+<p align="center">
+<img  src="https://img.icons8.com/cute-clipart/64/000000/3d-printer.png"/>
 </p>
 
 > A web platform for visualize models into reality for 3D printing
