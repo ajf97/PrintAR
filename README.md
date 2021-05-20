@@ -6,9 +6,8 @@
   <a href="https://github.com/ajf97/PrintAR/raw/master/docs/memoria.pdf">
     <img alt="doc" src="https://img.shields.io/badge/doc-pdf-green.svg" />
   </a>
-  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/ajf97/PrintAR">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ajf97/PrintAR">
-  <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/ajf97/PrintAR">
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/ajf97/PrintAR">
 </p>
 
 <p align="center">
