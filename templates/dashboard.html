@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}PrintAR{% endblock %}
+{% block content %}
+<h1>Mis modelos</h1>
+<ul>
+    {% for file in files %}
+    <li><a href="/object/{{ file }}">{{ file }}</a></li>
+    {% endfor %}
+</ul>
+
+<a class="btn btn-primary" href="">Importar modelo</a>
+<a class="btn btn-primary" href="{{ url_for('profile') }}">Actualizar perfil</a>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base_user.html" %}
+{% block title %}Perfil{% endblock %}
+{% block body %}
+
+<body style="text-align: center;">
+    <div class="card text-center">
+        <div class="card-header">
+            Tu perfil
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Email</h5>
+            <p class="card-text">{{ session['email'] }}</p>
+            <h5 class="card-title">Usuario</h5>
+            <p class="card-text">{{ session['username'] }}</p>
+            <h5 class="card-title">Nombre</h5>
+            <p class="card-text">{{ session['name'] }}</p>
+            <form action="{{ url_for('edit') }}" method="get">
+                <input type="submit" value="Editar" class="btn btn-primary">
+            </form>
+        </div>
+    </div>
+</body>
+{% endblock %}
